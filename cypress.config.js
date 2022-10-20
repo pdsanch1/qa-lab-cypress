@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'https://test-learn.ada-school.org/',
-    experimentalSessionAndOrigin: true
+    experimentalSessionAndOrigin: true,
+    excludeSpecPattern: process.env.CI ? 'cypress/e2e/all.cy.js' : [],
   },
 });

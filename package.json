@@ -4,8 +4,7 @@
   "description": "basic qa cypress config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "cypress open"
+    "test": "cypress open"
   },
   "repository": {
     "type": "git",
